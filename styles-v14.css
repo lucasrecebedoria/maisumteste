@@ -75,34 +75,3 @@ textarea{resize:vertical}
 .collapsed{display:none}
 .admin-only[hidden]{display:none!important}
 .user-only[hidden]{display:none!important}
-
-
-/* Badge styles */
-#userBadge {
-  display:inline-block;
-  padding:4px 10px;
-  margin-left:10px;
-  border-radius:12px;
-  font-weight:bold;
-  font-size:0.9em;
-}
-.badge-user { background: linear-gradient(135deg,#00ff99,#00cc66); color:#fff; }
-.badge-admin { background: linear-gradient(135deg,#FFD700,#FFA500); color:#000; }
-
-/* Positive/Negative */
-.text-positive { color:#00cc66; font-weight:bold; }
-.text-negative { color:#cc0000; font-weight:bold; }
-
-/* Clear filters button */
-#btnClearFilters {
-  margin-left:10px;
-  padding:6px 12px;
-  border-radius:8px;
-  border:none;
-  background:linear-gradient(135deg,#444,#222);
-  color:#fff;
-  cursor:pointer;
-}
-#btnClearFilters:hover {
-  background:linear-gradient(135deg,#555,#333);
-}
